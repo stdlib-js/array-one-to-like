@@ -45,30 +45,38 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/array-one-to-like
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var oneToLike = require( '@stdlib/array-one-to-like' );
+oneToLike = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to-like@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var oneToLike = require( 'path/to/vendor/umd/array-one-to-like/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to-like@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.oneToLike;
+})();
+</script>
 ```
 
 #### oneToLike( x\[, dtype] )
@@ -126,10 +134,15 @@ var arr = oneToLike( [ 0, 0, 0, 0, 0 ], 'int32' );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var sort2hp = require( '@stdlib/blas-ext-base-gsort2hp' );
-var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var oneToLike = require( '@stdlib/array-one-to-like' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2hp@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to-like@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 // Generate an array of random numbers:
 var opts = {
@@ -148,6 +161,11 @@ sort2hp( x.length, 1, tmp, 1, y, 1 );
 
 console.log( x );
 console.log( y );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
