@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-one-to-like",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generate a linearly spaced numeric array whose elements increment by 1 starting from one and having the same length and data type as a provided input array.",
   "license": "Apache-2.0",
   "author": {
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/array-dtype": "^0.1.0",
-    "@stdlib/array-one-to": "github:stdlib-js/array-one-to#main",
+    "@stdlib/array-one-to": "^0.1.0",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/types": "^0.2.0"
   },
