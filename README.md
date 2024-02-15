@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import oneToLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to-like@deno/mod.js';
+import oneToLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to-like@v0.2.0-deno/mod.js';
 ```
 
 #### oneToLike( x\[, dtype] )
@@ -113,7 +113,7 @@ var arr = oneToLike( [ 0, 0, 0, 0, 0 ], 'int32' );
 ```javascript
 import sort2hp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2hp@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import oneToLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to-like@deno/mod.js';
+import oneToLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to-like@v0.2.0-deno/mod.js';
 
 // Generate an array of random numbers:
 var opts = {
