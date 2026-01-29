@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
+## Unreleased (2026-01-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`c78d081`](https://github.com/stdlib-js/stdlib/commit/c78d081deff5ed3bc95010860bc5003cfb0a0563) - **bench:** refactor to use string interpolation in `array/one-to-like` [(#9952)](https://github.com/stdlib-js/stdlib/pull/9952) _(by Aman Singh)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Aman Singh
 -   Philipp Burckhardt
 
 </section>
