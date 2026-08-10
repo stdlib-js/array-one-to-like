@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-30)
+## Unreleased (2026-08-10)
+
+<section class="features">
+
+### Features
+
+-   [`28c1b87`](https://github.com/stdlib-js/stdlib/commit/28c1b877001ac4db853b9a958d9ec33bd1bd8288) - add float16 dtype support to `array/one-to-like` [(#14148)](https://github.com/stdlib-js/stdlib/pull/14148)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`28c1b87`](https://github.com/stdlib-js/stdlib/commit/28c1b877001ac4db853b9a958d9ec33bd1bd8288) - **feat:** add float16 dtype support to `array/one-to-like` [(#14148)](https://github.com/stdlib-js/stdlib/pull/14148) _(by Gururaj Gurram)_
 -   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`a4557ba`](https://github.com/stdlib-js/stdlib/commit/a4557ba86aebbc0535f0989f59ba3461ad6b1d89) - **refactor:** perform explicit dtype validation _(by Athan Reines)_
 
@@ -25,9 +36,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gururaj Gurram
 -   Philipp Burckhardt
 
 </section>
